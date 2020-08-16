@@ -233,14 +233,14 @@
        <p>Have a sweet project in mind or just want to say hi?
         Feel free to send me a message.</p>
         <div id="form">
-            <form action="">
+            <form method="POST" data-netlify="true">
                 <label for="name">Name</label>
-                <input type="text" name="name">
+                <input type="text" name="name" class="input-field">
                 <label for="email">E-mail</label>
-                <input type="text" name="email">
+                <input type="email" name="email" class="input-field">
                 <label for="message">Message</label>
-                <textarea></textarea>
-                <input type="submit" value="Send Message">
+                <textarea name="message"></textarea>
+                <input type="button" value="Send Message">
             </form>
         </div>
         <div class="social">

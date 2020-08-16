@@ -502,12 +502,13 @@ svg circle:nth-child(1){
     display: flex;
     flex-direction: column;
 }
-input[type=text]{
+.input-field{
     background-color: #1F2048;
     border: none;
     border-bottom: 3px solid #5A5CA6;
     padding: 13px 0;
 }
+
 label{
     margin-top: 20px;
     margin-bottom: 20px;
