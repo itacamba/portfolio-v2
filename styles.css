@@ -552,6 +552,7 @@ input[type=submit]{
     border: none;
     border-radius: 5px;
     color: #f2f2f2;
+    cursor: pointer;
 }
 .social{
     width: 230px;
