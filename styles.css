@@ -40,7 +40,10 @@ header{
 #logo img{
     width: 100%;
 }
-nav{
+.mobile-navbar{
+    display: none;
+}
+.navbar{
     z-index: 100;
     width: 52%;
     height: 100px;
@@ -48,9 +51,12 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-nav a{
-color:#333333;
-font-family: 'Cabin';
+.navbar > a{
+    color:#333333;
+    font-family: 'Cabin';
+}
+.navbar a:last-child{
+    color: #f2f2f2;
 }
 .theme-btn{
     color: white;
@@ -65,7 +71,7 @@ font-family: 'Cabin';
     justify-content: center;
 }
 .hero-content p{
-    z-index: 200;
+    z-index: 101;
     color: #5357F4;
     font-family: 'Cabin';
     font-size: 20px;
@@ -581,30 +587,7 @@ input[type=submit]{
     padding: 30px 0;
 }
 /*-- End Contact --*/
-/*-- Scroll to Top ---*/
-.to-top{
-    width: 50px;
-    height: 50px;
-    background-color: #C8C8C8;
-    position: fixed;
-    border-radius: 10px;
-    bottom: 0;
-    right: 0;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    z-index: 400;
-}
-.to-top i {
-    color:#828282;
-    cursor: pointer;
-    font-size: 30px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*-- End Scroll to Top ---*/
+
 /*--- Demo Pop Up ---*/
 .demo-pop-up{
     background-color: #5A5CA6;
@@ -631,3 +614,95 @@ input[type=submit]{
     
 }
 /*--- End Demo Pop Up ---*/
+
+/*--- RESPONSIVE 880px ---*/
+@media only screen and (max-width: 880px) {
+    .navbar{
+        display: none;
+    }
+    .mobile-navbar{
+       display: block;
+    }
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 10%;
+        z-index: 101;
+        cursor: pointer;
+    }
+    .menu-icon i{
+        font-size: 35px;
+    }
+    .mobile-items{
+        position: fixed;
+        top:0;
+        right:0;
+        height: 100vh;
+        background-color: #5A5CA6;
+        width: 50%;
+        padding-top: 70px;
+        z-index: 102;
+        display: none;
+    }
+    #x-icon{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+        cursor: pointer
+        
+    }
+    #x-icon i{
+        font-size: 30px;
+        width: 100%;
+        padding-top: 5px;
+        text-align: center;
+        color: #BDBEDB;
+    }   
+    .mobile-items a{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px 0;
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: #F2F2F8;
+    }
+    .mobile-items a:last-child{
+        float: left;
+        margin-top: 15px;
+        margin-left: 30px;
+        width: 150px;
+        text-align: center;
+        background-color: #BDBEDB;
+        border-radius: 5px;
+        color:#333;
+    }
+  }
+
+  /*-- Scroll to Top ---*/
+.to-top{
+    z-index: 105;
+    width: 50px;
+    height: 50px;
+    background-color: #C8C8C8;
+    position: fixed;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 20px;
+
+}
+.to-top i {
+    color:#828282;
+    cursor: pointer;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-- End Scroll to Top ---*/

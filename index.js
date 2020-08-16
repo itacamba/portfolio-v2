@@ -1,5 +1,5 @@
 // when demo icon is clicked 
-
+console.log("index.js working")
 function showPopUp(){
     const popUp = document.querySelector('.demo-pop-up')
     popUp.style.display = "block"
@@ -17,3 +17,13 @@ form.addEventListener("submit", (e) => {
     console.log("submitted")
 })
 
+// when mobile menu icon is clicked
+    const menu = document.querySelector('.mobile-items')
+function showMobileMenu(){
+    menu.style.display = "block"
+}
+//when x icon is clicked
+function hideMobileMenu(){
+    
+    menu.style.display = "none"
+}
