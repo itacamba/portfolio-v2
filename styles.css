@@ -105,6 +105,8 @@ header{
 }
 /* About Me */
 #about{
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
    
@@ -132,13 +134,20 @@ header{
     font-family: 'Montserrat';
 }
 .about-me p{
+    margin-top: 25px;
     color: #666666;
     line-height: 30px;
+}
+.about-me .theme-btn{
+    margin-top: 25px;
 }
 /* End About Me */
 /* Projects */
 #projects{
-    margin-top: 200px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-top: 100px;
 }
 #projects > h1{
     font-size: 50px;
@@ -151,7 +160,7 @@ header{
     color: #333333;
 }
 #projects-container{
-  
+
     display: flex;
     flex-direction: column;
 }
@@ -681,6 +690,189 @@ input[type=submit]{
         border-radius: 5px;
         color:#333;
     }
+    /* hero content */
+ 
+        #main{
+            /* border: 1px solid green; */
+            height: 70vh;
+        }
+        .hero-content p{
+            font-size: 18px;
+        }
+        .hero-content h1{
+            font-size: 40px;
+            padding: 0 5px;
+            margin-top: 15px;
+        }
+        .hero-content h2{
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        #down-arrow{
+            margin-top: 40px;
+        }
+    /* End hero content */
+    /* about */
+        #about{
+            flex-direction: column;
+        }
+        .my-picture{
+            max-width: 90%;
+            margin: 0 auto;
+        }
+        .about-me{
+            width: 100%;
+            margin: 0 auto;
+            padding:0;
+        }
+        .about-me h1{
+            /* border: 1px solid red; */
+            font-size: 7vw;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .about-me > p{
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .about-me > a{
+            margin-top: 20px;
+        }
+    /* End about */
+    /* Projects */
+        #projects{
+            background-color: #e9e9e9;
+            width: 100%;
+            padding:  0 10%;
+            padding-top: 100px;
+            /* border: 1px solid blue; */
+        }
+        #projects > h1{
+            font-size: 8vw;
+            width: 100%;
+            margin: 0 auto;
+        }
+        #projects > p{
+            line-height: 30px;
+        }
+        #projects-container{
+           /* border: 1px solid red; */
+           margin-top: 20%;
+        }
+        .project{
+            margin-top: 0;
+        }
+        .project:first-child{
+            margin-bottom: 250px;
+        }
+        .project:nth-child(2){
+            margin-bottom: 300px;
+        }
+        .project:nth-child(3){
+            margin-bottom: 250px;
+        }
+        .project img{
+            padding-top: 70px;
+            width: 90%;
+        }
+        .project-content{
+            top: 0;
+            /* border: 1px solid red; */
+        }
+        .project-content p{
+            font-size: 10px;
+        }
+        .project-content h1{
+            font-size: 15px;
+        }
+        .project-content > h2{
+            margin-top: 60%;
+            padding: 15px;
+            font-size: 14px;
+            width: 90%;
+        }
+        .tech-used p{
+            font-size: 12px;
+            /* margin-top: 10px; */
+        }
+        .project-icons{
+            margin-top: 5%;
+        }
+        .project-icons > a{
+            margin-left: 25px;
+            font-size: 25px;
+        } 
+        /* project even */
+
+        .project-even{
+            /* border:1px solid red; */
+            margin-top: 100px;
+        }
+        .project-even img{
+            width: 90%;
+            padding-top: 70px;
+        }
+        .project-even-content{
+            top:0;
+            /* border: 1px solid red; */
+        }
+        .project-even-content > h2{
+            margin-top: 60%;
+            font-size: 13px;
+            width: 90%;
+            padding: 15px;
+        }
+        .even-tech-used{
+            width: 100%;
+         }
+        .even-tech-used p{
+            margin-right: 25px;
+            font-size: 12px;
+        }
+        .even-project-icons{
+            margin-top: 5%;
+        }
+        .even-project-icons > a{
+            margin-right: 25px;
+            font-size: 25px;
+        } 
+        
+
+
+
+
+
+/* end project even */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* end project even*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* End Projects */
   }
 
   /*-- Scroll to Top ---*/
