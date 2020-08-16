@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Montserrat:wght@400;500;800;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="./images/favicon.ico"/>
     <title>Carla Sahagun | Front End Developer in Virginia</title>
+
 </head>
 <body>
 
@@ -232,15 +233,16 @@
        <p>Have a sweet project in mind or just want to say hi?
         Feel free to send me a message.</p>
         <div id="form">
-            <form method="post" data-netlify="true" netlify name="form2" data-netlify-recaptcha="true">
+            <form id="contact-form" method="POST">
                 <label for="name">Name</label>
                 <input type="text" name="name" class="input-field"/>
                 <label for="email">E-mail</label>
                 <input type="email" name="email" class="input-field"/>
                 <label for="message">Message</label>
                 <textarea name="message"></textarea>
-                <input type="submit" value="Send Message"/>
+                <input type="submit" value="Send Message" onclick="sendEmail()"/>
             </form>
+
         </div>
         <div class="social">
             <a href="https://www.linkedin.com/in/carla-sahagun" target="_blank">
