@@ -543,7 +543,7 @@ textarea{
     padding-left: 10px;
     padding-top: 10px;
 }
-input[type=button]{
+input[type=submit]{
     margin-top: 25px;
     font-size: 14px;
     width: 150px;
