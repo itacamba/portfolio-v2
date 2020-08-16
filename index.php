@@ -233,14 +233,14 @@
        <p>Have a sweet project in mind or just want to say hi?
         Feel free to send me a message.</p>
         <div id="form">
-            <form id="contact-form" method="POST">
+            <form method="POST">
                 <label for="name">Name</label>
                 <input type="text" name="name" class="input-field"/>
                 <label for="email">E-mail</label>
                 <input type="email" name="email" class="input-field"/>
                 <label for="message">Message</label>
                 <textarea name="message"></textarea>
-                <input type="submit" value="Send Message" onclick="sendEmail()"/>
+                <input type="submit" value="Send Message" />
             </form>
 
         </div>
