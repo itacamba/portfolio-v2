@@ -507,6 +507,9 @@ svg circle:nth-child(1){
     border: none;
     border-bottom: 3px solid #5A5CA6;
     padding: 13px 0;
+    font-size: 16px;
+    color: #e3e3e3;
+    padding-left: 10px;
 }
 
 label{
@@ -520,8 +523,12 @@ textarea{
     height: 130px;
     border-bottom: 3px solid #5A5CA6;
     background: #1F2048;
+    font-size: 16px;
+    color: #e3e3e3;
+    padding-left: 10px;
+    padding-top: 10px;
 }
-input[type=submit]{
+input[type=button]{
     margin-top: 25px;
     font-size: 14px;
     width: 150px;
