@@ -503,7 +503,11 @@ svg circle:nth-child(1){
     width: 100%;
     text-align: center;
 }
-    /* End Freelance*/
+.hire-me{
+    margin-top: 25px;
+    /* border: 1px solid yellow; */
+}
+/* End Freelance*/
 
 /*-- Contact --*/
 #contact{
@@ -893,21 +897,72 @@ input[type=submit]{
         width: 100%;
     }
     /* End horizontal skills */
+    /* End My Skill Set */
+    /* freelance */
+    #freelance h1{
+        top: 40px;
+        font-size: 30px;
+    }
+    #freelance p{
+        top: 80px;
+        /* border: 1px solid yellow; */
+        display: block;
+        font-size: 14px;
+    }
+    .hire-me{
+        margin-top: 30px;
+        /* border: 1px solid yellow; */
+    }
+    .hire-me a{
+        padding: 15px 30px;
+    }
+    /* Endf reelance */
 
-
-
-
-
-
-
-
-
-
-
-
-     /* End My Skill Set */
   }
+  @media only screen and (max-width: 660px) {
+    /*  freelance  */
+    #freelance img{
+        height: 250px;
+    }
+    #freelance h1{
+        top: 40px;
+        font-size: 25px;
+    }
+    #freelance p{
+        top: 90px;
+        /* border: 1px solid yellow; */
+        line-height: 20px;
+        font-size: 12px;
+    }
+    .hire-me{
+        margin-top:10px;
+        /* border: 1px solid yellow; */
+    }
+    .hire-me a{
+        padding: 10px 30px;
+    }
+    /* End freelance  */
+  }
+  @media only screen and (max-width: 390px) {
+    /*  freelance  */
 
+    #freelance h1{
+        font-size: 18px;
+    }
+    #freelance p{
+        padding: 0 20%;
+
+        /* border: 1px solid yellow; */
+    }
+    .hire-me{
+        margin-top:30px;
+        /* border: 1px solid yellow; */
+    }
+    .hire-me a{
+        padding: 10px 30px;
+    }
+    /* End freelance  */
+  }
   /*-- Scroll to Top ---*/
 .to-top{
     z-index: 105;
