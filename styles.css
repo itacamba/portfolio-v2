@@ -916,7 +916,22 @@ input[type=submit]{
     .hire-me a{
         padding: 15px 30px;
     }
-    /* Endf reelance */
+    /* Endf freelance */
+    /* Contact */
+    #contact > h1{
+        color: #e3e3e3;
+    }
+    #contact p:first-of-type{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 30px;
+        line-height: 30px;
+        /* border: 1px solid yellow; */
+    }
+    #form{
+        width: 80%;
+    }
+    /* End Contact */
 
   }
   @media only screen and (max-width: 660px) {
